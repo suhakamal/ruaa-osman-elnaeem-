@@ -1,0 +1,231 @@
+body{
+  background-image: url(themeless.jpg);
+}
+/*////////////////////////header/////////////////////////////*/
+header{
+  background-image: url(headerbg.jpg);
+  padding-left: 10px;
+  padding-top: 60px;
+  height: 150px;
+  color: #bca523;
+  text-shadow: 2px 2px #000;
+  width: 100%
+}
+
+/*/////////////////////////////////////////////////////*/
+h1{
+  font-size: 37px;
+  color: #bca523;
+}
+/*/////////////////////////////////////////////////////*/
+h2{
+    color :#bca523;
+    padding-left: 3px;
+}
+/*//////////////////////mane body///////////////////////////////*/
+section{
+  padding: 20px;
+  font-size: 20px;
+  background-color: #fff;
+  width: 70%;
+  float: left;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+
+}
+/*/////////////////////////////////////////////////////*/
+article{
+  border-radius: 5px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  margin-bottom: 5px;
+  border-bottom: 3px;
+}
+/*/////////////////////////////////////////////////////*/
+img{
+  border-radius: 250px;
+  -webkit-border-radius: 250px;
+  -moz-border-radius: 250px;
+  float: right;
+  margin-left: 10px;
+}
+/*/////////////////////////navigation////////////////////////////*/
+nav{
+  background: linear-gradient(to bottom right ,#BCA523, #fff);
+  height: 40px;
+  border-radius: 5px;
+  padding-top: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+nav ul{
+  text-align: center;
+  list-style: none;
+  margin: 5px;
+  width: 80%
+
+}
+nav ul li{
+  display: inline;
+  margin-left: 100px;
+
+}
+nav a:link ,a:visited {
+  text-decoration: none;
+  display: inline;
+  margin-bottom: 3px;
+  color: #000;
+}
+nav a:hover ,a:active {
+  text-decoration: none;
+  display: inline;
+  margin-bottom: 3px;
+  color: #fff;
+  text-shadow: 1px 1px #000;
+}
+/*/////////////////////////saide par////////////////////////////*/
+aside h1{
+  background-color: #fff;
+  width: 24%;
+  height: 100px;
+  float: left;
+  font-size: 30px;
+  margin-left: 1%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  padding: 0px 10px;
+  margin-bottom: 5px;
+  margin-top: 3px;
+  padding-top: 10px;
+}
+#card1{
+  background-color: #fff;
+  width: 24%;
+  float: left;
+  margin-left: 1%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  padding: 0px 10px;
+  margin-bottom: 5px;
+
+}
+#card2{
+  background-color: #fff;
+  width: 24%;
+  float: left;
+  margin-left: 1%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  padding: 0px 10px;
+    margin-bottom: 5px;
+
+}
+#card3{
+  background-color: #fff;
+  width: 24%;
+  float: left;
+  margin-left: 1%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  padding: 0px 10px;
+
+}
+
+/*/////////////////////////footer////////////////////////////*/
+footer{
+  float: left;
+  width: 100%;
+  padding-left: 10px;
+  margin-top: 3px;
+  background: linear-gradient(to bottom right ,#BCA523, #fff);
+  height: 90px;
+  border-radius: 5px;
+}
+footer a:link ,a:visited {
+  text-decoration: none;
+  display: inline;
+  margin-bottom: 3px;
+  color: #000;
+}
+footer a:hover ,a:active {
+  text-decoration: none;
+  display: inline;
+  margin-bottom: 3px;
+  color: #fff;
+  text-shadow: 1px 1px #000;
+}
+footer a img{
+  width: 30px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  float: none;
+
+}
+#writer{
+  color: #ddd;
+  text-shadow: 1px 1px #000;
+  font-size: 15px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  font-style: italic;
+}
+
+/*/////////////////////////css for mobile screen//////////////////////////*/
+@media screen and (max-width:1215px) {
+
+  header{
+    width: 98%
+  }
+  section{
+    width: 93%;
+  }
+  aside h1{
+    width: 95%;
+  }
+  #card1{
+
+    width: 95%;
+
+
+  }
+  #card2{
+
+    width: 95%;
+
+  }
+  #card3{
+
+    width:95%;
+
+  }
+  nav{
+    width: 100%
+  }
+}
+
+/*//////////////////////////////////////////////////////////////////*/
+
+@media screen and (max-width:570px){
+  header{
+    width: 98%
+  }
+  nav{
+    height: 65px;
+  }
+  nav ul li{
+    display: block;
+  }
+  section{
+    width: 92%;
+  }
+
+}
